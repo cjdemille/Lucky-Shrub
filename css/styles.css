@@ -1,26 +1,40 @@
+*{
+    border:1px solid red;
+}
+
 body{
     width:100vw;
     box-sizing: border-box;
-    overflow: hidden;
     justify-content: center;
-    padding:0 .5rem;
+    background-color:#ede6f0; 
+    font-family: 'League Spartan', sans-serif;
 }
-
 header img{
-    width:20%;
-    margin:3rem auto;
+    width:5%;
+    margin:2rem auto;
     display:block;
 }
 nav{
-    margin: 1rem auto;
+    margin: 1rem 0;
+    background-color: hsl(0, 56%, 45%);
+    padding:1rem 0;
+    width:100%;
+    /* border-radius: .25rem; */
+
 }
 nav ul{
     display: flex;
     justify-content: space-around;
+
 }
 
 nav li{
     display:inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ede6f0; 
 }
 
 section{
@@ -28,25 +42,69 @@ section{
     width: 100%;
     flex-direction: row;
     margin:2rem auto;
+    padding:0 .5rem;
+    box-sizing: border-box;
 }
 .info{
     justify-content: space-between;
+    color: #ede6f0;
+}
+.jumbo{
+    box-sizing: border-box;
+    padding:1.5rem;
+    width: 100%;
+}
+
+.jumbo img{
+    width: 80%;
+    height:60%;
+    object-fit:cover;
+    margin:0 auto;
+}
+
+.info article{
+    background-color: #27877f;
+    padding:.5rem;
+    margin:0 .75rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.info img{
+    width: 80%;
+    height:60%;
+    object-fit:cover;
+    margin:0 auto;
 }
 
 article{
     flex:1;
 }
 
+.info h2{
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
 
+.info p{
+    margin: 1rem 0;
+    line-height: 1.2;
+}
 footer{
     display:flex;
     width:100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    color:#27877f;
 }
 
 footer img{
-    width: 10%;
+    width: 5%;
 }
 footer div{
     flex:1;
