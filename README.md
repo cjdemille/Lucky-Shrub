@@ -1,2 +1,4 @@
-# web-template
-template for website projects
+# Lucky-Shrub
+Lucky Shrub homepage project for Meta Frontend Developer project. 
+
+Images are licensed through Adobe stock
